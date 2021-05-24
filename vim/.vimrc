@@ -63,7 +63,7 @@ Plug 'nathanaelkane/vim-indent-guides'
 call plug#end()
 
 set termguicolors     " enable true colors support
-let ayucolor="light"  " for light version of theme
+let ayucolor="mirage"  " for light version of theme
 colorscheme ayu
 
 " go-vim plugin specific commands
