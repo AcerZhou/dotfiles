@@ -29,6 +29,7 @@ set autoread
 set wildmenu
 set wildmode=longest:list,full
 set splitright
+set autowrite
 
 " Hardcore mode, disable arrow keys.
 noremap <Up> <NOP>
@@ -62,6 +63,10 @@ Plug 'airblade/vim-gitgutter'
 Plug 'nathanaelkane/vim-indent-guides'
 call plug#end()
 
+" set up leader
+let mapleader = ";"
+
+" Set theme`
 set termguicolors     " enable true colors support
 let ayucolor="mirage"  " for light version of theme
 colorscheme ayu
@@ -70,6 +75,12 @@ colorscheme ayu
 " Also run `goimports` on your current file on every save
 " Might be be slow on large codebases, if so, just comment it out
 let g:go_fmt_command = "goimports"
+map <C-n> :cnext<CR>
+map <C-m> :cprevious<CR>
+nnoremap <leader>a :cclose<CR>
+
+autocmd FileType go nmap <leader>b  <Plug>(go-build)
+autocmd FileType go nmap <leader>r  <Plug>(go-run)
 
 " Status line types/signatures.
 let g:go_auto_type_info = 1
@@ -258,5 +269,3 @@ nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
-" Set up init vim window with a terminal splitright
-autocmd VimEnter * :vert terminal 
