@@ -29,6 +29,8 @@ set autoread
 set wildmenu
 set wildmode=longest:list,full
 set splitright
+set swapfile
+set dir=~/tmp
 
 " Hardcore mode, disable arrow keys.
 noremap <Up> <NOP>
