@@ -47,6 +47,7 @@ set backspace=indent,eol,start
 "        stop once at the start of insert.
 
 filetype plugin indent on
+filetype plugin on
 filetype indent on
 
 autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4
@@ -56,10 +57,12 @@ autocmd Filetype go setlocal tabstop=4 shiftwidth=4 softtabstop=4
 " sts - control <tab> and <bs> keys to match tabstop
 
 call plug#begin()
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'junegunn/fzf', {'do': { ->fzf#install()}}
 Plug 'junegunn/fzf.vim'
 Plug 'ayu-theme/ayu-vim'
 Plug 'scrooloose/nerdtree'
+Plug 'preservim/nerdcommenter'
 Plug 'neoclide/coc.nvim'
 Plug 'airblade/vim-gitgutter'
 Plug 'nathanaelkane/vim-indent-guides'
