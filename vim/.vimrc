@@ -63,9 +63,12 @@ Plug 'junegunn/fzf.vim'
 Plug 'ayu-theme/ayu-vim'
 Plug 'scrooloose/nerdtree'
 Plug 'preservim/nerdcommenter'
+Plug 'jiangmiao/auto-pairs'
 Plug 'neoclide/coc.nvim'
 Plug 'airblade/vim-gitgutter'
+Plug 'tpope/vim-fugitive'
 Plug 'nathanaelkane/vim-indent-guides'
+Plug 'tpope/vim-surround'
 call plug#end()
 
 " set up leader
