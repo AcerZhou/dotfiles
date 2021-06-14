@@ -79,6 +79,10 @@ set termguicolors     " enable true colors support
 let ayucolor="mirage"  " for light version of theme
 colorscheme ayu
 
+" set up fzf
+nnoremap <C-p> :GFiles<Cr>
+
+
 " go-vim plugin specific commands
 " Also run `goimports` on your current file on every save
 " Might be be slow on large codebases, if so, just comment it out
