@@ -28,16 +28,19 @@ set history=1000
 set autoread
 set wildmenu
 set wildmode=longest:list,full
+set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 set splitright
 set swapfile
 set dir=~/tmp
 set autowrite
+set cursorline
 
 " Hardcore mode, disable arrow keys.
 noremap <Up> <NOP>
 noremap <Down> <NOP>
 noremap <Left> <NOP>
 noremap <Right> <NOP>
+"
 " Allow backspace to delete indentation and inserted text
 " i.e. how it works in most programs
 set backspace=indent,eol,start
@@ -46,6 +49,7 @@ set backspace=indent,eol,start
 " start   allow backspacing over the start of insert; CTRL-W and CTRL-U
 "        stop once at the start of insert.
 
+filetype on
 filetype plugin indent on
 filetype plugin on
 filetype indent on
