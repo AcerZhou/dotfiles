@@ -60,6 +60,7 @@ call plug#begin()
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'junegunn/fzf', {'do': { ->fzf#install()}}
 Plug 'junegunn/fzf.vim'
+Plug 'mileszs/ack.vim'
 Plug 'ayu-theme/ayu-vim'
 Plug 'scrooloose/nerdtree'
 Plug 'preservim/nerdcommenter'
