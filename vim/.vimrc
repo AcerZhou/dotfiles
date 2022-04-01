@@ -98,6 +98,7 @@ nnoremap <leader>a :cclose<CR>
 
 autocmd FileType go nmap <leader>b  <Plug>(go-build)
 autocmd FileType go nmap <leader>r  <Plug>(go-run)
+autocmd FileType go nmap <leader>t  <Plug>(go-test)
 
 " Status line types/signatures.
 let g:go_auto_type_info = 1
