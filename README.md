@@ -7,11 +7,6 @@ Idea behind set up
 2. Reduce time on using mouse
 3. Unified shortcuts and adapt to all environments
 
-## Personal set up
-
-- Shell
-- Alias
-
 ## Apps
 
 | Function           | Mac OS           | Ubuntu           |
@@ -48,3 +43,16 @@ Idea behind set up
 | googler  | cmd google tool             |
 | wiki     | cmd wiki tool               |
 | thefuck  | cmd fixing tool             |
+
+### Cloud Provider Tools
+
+| Tool    | Description |
+| ------- | ----------- |
+| aws cli | aws cli     |
+
+## Development Set up
+
+- NodeJS
+- Go Lang
+- DotNet Core
+- Python
