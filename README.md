@@ -1,47 +1,50 @@
 # dotfiles
 
 This is a repo for my personal environment set up.
+Idea behind set up
 
-## Personal set up 
-* Shell
-* Alias
+1. Adapting Mac OS & Linux (Ubuntu)
+2. Reduce time on using mouse
+3. Unified shortcuts and adapt to all environments
+
+## Personal set up
+
+- Shell
+- Alias
 
 ## Apps
-* Safari
-* Firefox
-* Chrome
-* Vbox
-* Zoom
-* Slack
-* Mail/ThunderBird
 
-## Package management
-* brew (MacOS)
-* apt/snap (Ubuntu)
+| Function           | Mac OS           | Ubuntu           |
+| ------------------ | ---------------- | ---------------- |
+| package management | brew             | apt & snap       |
+| browser            | firefox & chrome | firefox & chrome |
+| virtual machine    | vbox             | vbox             |
+| IM                 | slack            | slack            |
+| email              | Mail             | ThunderBird      |
+| video              | Zoom             | Zoom             |
+| terminal           | iterm2           | terminal         |
+| Note               | Notion           | Notion           |
+| Editor             | vscode & vim     | vscode & vim     |
+| Docker             | Docker           | Docker           |
 
-## System, monitoring
-* htop
+## Terminal Set up
 
-## Development
-* Docker
+| Tools      | Description                        |
+| ---------- | ---------------------------------- |
+| zsh        | default sh                         |
+| htop       | systerm monitoring                 |
+| Tmux       | split terminal                     |
+| Git        | version control                    |
+| gh         | github cli to manage github in cmd |
+| ffmpge     | picture manage cli tool            |
+| youtube-dl | youtube download tool              |
 
-## Tools for productivity
-* Vim 
-* Zsh
-* Tmux
-* Git
-* gh
-* vscode
-* Iterm2 (MacOS)
-* Notion
+### Additional Terminal Set up
 
-## Other tools
-* tldr - a simplify `man pages` with practical examples
-* autojump - a quick tool jump into dir
-* googler - a cmd line google tool
-* wiki - a cmd line wiki tool
-* thefuck - a cmd line fix tool 
-* youtube-dl - a youtube download tool
-* ffmpeg - a picture manage tool 
-
-
+| Tools    | Description                 |
+| -------- | --------------------------- |
+| tldr     | simplify `man page`         |
+| autojump | a quick tool jump directory |
+| googler  | cmd google tool             |
+| wiki     | cmd wiki tool               |
+| thefuck  | cmd fixing tool             |
