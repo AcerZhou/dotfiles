@@ -24,4 +24,5 @@ brew uninstall jq
 brew uninstall yq 
 brew uninstall htop
 brew uninstall tmux
+brew uninstall autojump
 

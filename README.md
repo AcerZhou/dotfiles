@@ -7,6 +7,11 @@ Idea behind set up
 2. Reduce time on using mouse
 3. Unified shortcuts and adapt to all environments
 
+## Content Here
+1. installation scripts and cleaning up scripts for Mac OS and Ubuntu
+2. my zsh config
+3. vim config
+
 ## Apps
 
 | Function           | Mac OS           | Ubuntu           |
@@ -41,19 +46,19 @@ Idea behind set up
 | youtube-dl | youtube download tool              |
 | jq | A command-line JSON processor |
 | yq | A command-line YMAL processor |
-| mdv | A command-line Markdown reader|
+| autojump | a quick tool jump directory |
 
 ### Additional Terminal Set up
 
 | Tools    | Description                 |
 | -------- | --------------------------- |
 | tldr     | simplify `man page`         |
-| autojump | a quick tool jump directory |
 | googler  | cmd google tool             |
 | wiki     | cmd wiki tool               |
 | thefuck  | cmd fixing tool             |
 | (fzf)[https://github.com/junegunn/fzf] | A command-line fuzzy finder |
 | (coreutils)[https://www.gnu.org/software/coreutils/] | gnu core utils |
+| mdv | A command-line Markdown reader|
 
 ### Cloud Provider Tools
 

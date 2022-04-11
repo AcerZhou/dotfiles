@@ -24,4 +24,5 @@ brew install jq
 brew install yq 
 brew install htop
 brew install tmux
+brew install autojump
 
