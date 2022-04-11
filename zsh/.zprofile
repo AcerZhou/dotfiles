@@ -3,7 +3,7 @@ alias ll='ls -hAlt'
 alias reload='source ~/.zprofile'
 alias config='vim ~/.zprofile'
 alias vimc='vim ~/.vimrc'
-
+#
 # nvm set up
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -33,3 +33,12 @@ zstyle ':vcs_info:git:*' formats '(%b)'
 setopt PROMPT_SUBST
 PROMPT='%n@[%1d] ${vcs_info_msg_0_} > '
 
+# Add Weather Functions
+function weather(){
+    curl wttr.in/$1
+}
+
+# Check my public ip
+function ipinfo(){
+    curl ipinfo.io/$1
+}
