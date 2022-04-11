@@ -22,6 +22,12 @@ Idea behind set up
 | Editor             | vscode & vim     | vscode & vim     |
 | Docker             | Docker           | Docker           |
 
+### Optional Apps 
+* sequelpro
+* insomnia 
+* gifox/giphy capture/gitCapture
+* alfred
+
 ## Terminal Set up
 
 | Tools      | Description                        |
@@ -33,6 +39,9 @@ Idea behind set up
 | gh         | github cli to manage github in cmd |
 | ffmpge     | picture manage cli tool            |
 | youtube-dl | youtube download tool              |
+| jq | A command-line JSON processor |
+| yq | A command-line YMAL processor |
+| mdv | A command-line Markdown reader|
 
 ### Additional Terminal Set up
 
@@ -43,6 +52,8 @@ Idea behind set up
 | googler  | cmd google tool             |
 | wiki     | cmd wiki tool               |
 | thefuck  | cmd fixing tool             |
+| (fzf)[https://github.com/junegunn/fzf] | A command-line fuzzy finder |
+| (coreutils)[https://www.gnu.org/software/coreutils/] | gnu core utils |
 
 ### Cloud Provider Tools
 
@@ -56,3 +67,5 @@ Idea behind set up
 - Go Lang
 - DotNet Core
 - Python
+- Rust
+- Java
