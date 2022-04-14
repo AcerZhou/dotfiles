@@ -6,6 +6,7 @@ Idea behind set up
 1. Adapting Mac OS & Linux (Ubuntu)
 2. Reduce time on using mouse
 3. Unified shortcuts and adapt to all environments
+4. Only add tools if absolute necessary (useful)
 
 ## Content Here
 1. installation scripts and cleaning up scripts for Mac OS and Ubuntu
@@ -18,7 +19,6 @@ Idea behind set up
 | ------------------ | ---------------- | ---------------- |
 | package management | brew             | apt & snap       |
 | browser            | firefox & chrome | firefox & chrome |
-| virtual machine    | vbox             | vbox             |
 | IM                 | slack            | slack            |
 | email              | Mail             | ThunderBird      |
 | video              | Zoom             | Zoom             |
@@ -32,6 +32,7 @@ Idea behind set up
 * insomnia 
 * gifox/giphy capture/gitCapture
 * alfred
+* vbox 
 
 ## Terminal Set up
 
@@ -47,6 +48,7 @@ Idea behind set up
 | jq | A command-line JSON processor |
 | yq | A command-line YMAL processor |
 | autojump | a quick tool jump directory |
+| tmux | A terminal multiplexer |
 
 ### Additional Terminal Set up
 
@@ -74,3 +76,6 @@ Idea behind set up
 - Python
 - Rust
 - Java
+
+## Reference
+https://github.com/jlevy/the-art-of-command-line
