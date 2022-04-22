@@ -21,18 +21,20 @@ Idea behind set up
 | Note               | Notion           | Notion           |
 | Editor             | vscode & vim     | vscode & vim     |
 | Docker             | Docker           | Docker           |
+| Window manager     | yabai            | i3wm             |
 
 ## Terminal Set up
 
-| Tools      | Description                        |
-| ---------- | ---------------------------------- |
-| zsh        | default sh                         |
-| htop       | systerm monitoring                 |
-| Tmux       | split terminal                     |
-| Git        | version control                    |
-| gh         | github cli to manage github in cmd |
-| ffmpge     | picture manage cli tool            |
-| youtube-dl | youtube download tool              |
+| Tools        | Description                        |
+| ------------ | ---------------------------------- |
+| zsh          | default sh                         |
+| htop         | systerm monitoring                 |
+| Tmux         | split terminal                     |
+| Git          | version control                    |
+| gh           | github cli to manage github in cmd |
+| ffmpge       | picture manage cli tool            |
+| youtube-dl   | youtube download tool              |
+| file explore | ranger                             |
 
 ### Additional Terminal Set up
 
