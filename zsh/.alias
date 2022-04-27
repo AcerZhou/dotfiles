@@ -1,0 +1,6 @@
+#alias 
+alias ll='ls -hAlt'
+alias reload='source ~/.zprofile'
+alias config='vim ~/.zprofile'
+alias vimc='vim ~/.vimrc'
+

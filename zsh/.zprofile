@@ -1,9 +1,10 @@
-#alias 
-alias ll='ls -hAlt'
-alias reload='source ~/.zprofile'
-alias config='vim ~/.zprofile'
-alias vimc='vim ~/.vimrc'
-#
+# basic set up
+export EDITOR=vim
+
+
+# import alias
+source ./.alias
+
 # nvm set up
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
